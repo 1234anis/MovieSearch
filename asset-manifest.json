@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MovieSearch/static/css/main.87ec1bb7.chunk.css",
+    "main.js": "/MovieSearch/static/js/main.98c55226.chunk.js",
+    "main.js.map": "/MovieSearch/static/js/main.98c55226.chunk.js.map",
+    "runtime-main.js": "/MovieSearch/static/js/runtime-main.1d0558d6.js",
+    "runtime-main.js.map": "/MovieSearch/static/js/runtime-main.1d0558d6.js.map",
+    "static/js/2.d3462bef.chunk.js": "/MovieSearch/static/js/2.d3462bef.chunk.js",
+    "static/js/2.d3462bef.chunk.js.map": "/MovieSearch/static/js/2.d3462bef.chunk.js.map",
+    "index.html": "/MovieSearch/index.html",
+    "static/css/main.87ec1bb7.chunk.css.map": "/MovieSearch/static/css/main.87ec1bb7.chunk.css.map",
+    "static/js/2.d3462bef.chunk.js.LICENSE.txt": "/MovieSearch/static/js/2.d3462bef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d0558d6.js",
+    "static/js/2.d3462bef.chunk.js",
+    "static/css/main.87ec1bb7.chunk.css",
+    "static/js/main.98c55226.chunk.js"
+  ]
+}
