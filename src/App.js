@@ -23,7 +23,7 @@ const App = () => {
     fetch(url).then((res)=>res.json())
    .then((movie)=>{
    setMovieInfo(movie);
-   console.log(movie);
+  
    
    }).catch((e)=>{
      console.log(e);
