@@ -14,7 +14,7 @@ const App = () => {
 
   const readTitle=(value)=>{
     setTitle(value);
-    console.log(value);
+    // console.log(value);
 
   }
   const getmovieData=()=>{
@@ -23,13 +23,14 @@ const App = () => {
     fetch(url).then((res)=>res.json())
    .then((movie)=>{
    setMovieInfo(movie);
-   console.log(movie)
+   console.log(movie);
+   
    }).catch((e)=>{
      console.log(e);
    })
   }
   return (<>
-  <div className="App">
+  <div className="App"  >
     <div className="container">
       <div className="padd">
         <h1>Movie Search</h1>
@@ -38,10 +39,10 @@ const App = () => {
          <button className="btn" onClick={getmovieData}>Get Movie</button>
         </div>
         {
-          movieInfo?.Error===undefined?(
+          movieInfo?.Error===undefined?( 
         
-        <div className="movie" key={Math.random()}>
-          <div className="poster">
+        <div className="movie" key={"moviInfo"}>
+          <div className="poster"  >
            <img src={movieInfo?.Poster} alt="movieImg" className="img1" />
           </div>
           <div className="details">
@@ -83,4 +84,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
